@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+.navbar-nav{
+        padding-left: 456px;
+        font-family: sans-serif;
+    }
+.nav-link{
+    font-size: small;
+}
+.banner_img{
+    width: 2000px;
+    height: 1250px;
+}
+.icon_p{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.icon_p1{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.lay{
+    padding-bottom: 70px;
+}
+.foot{
+    padding-top: 40px;
+}
+/* carousel button start */
+.carousel-control-prev {
+    background-color: #000;
+    opacity: 9%;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 210px;
+    
+}
+.carousel-control-next{
+    background-color: #000;
+    opacity: 9%;
+    width: 30px;
+    height: 30px;
+    margin-top: 210px;
+    border-radius: 20px;
+    
+    
+}
+/* carousel button end */
+
+/* carousel image */
+.carousel-item img{
+    /* width: 850px; */
+    height: 478px;
+    border-radius: 5px;
+}
+/* about and service foot */
+/* about page */
+.aboutfoot{
+    padding-top: 0px;
+}
+/* service */
+.incomepad{
+  padding-left: 50px;
+}
+/* nav_bar */
+/* .nav_new{
+    text-align: center;
+    padding: 10px;
+}
+.nav_colr a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    
+}
+.nav_top{
+    background-color:#fff ;
+    border-radius: 5px; 
+    text-align: center;
+    padding: 5px 20px;
+}
+.dropdown-menu{
+    background-color:#fff ;
+    color: #000;
+}
+.nav_colr a:hover{
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+} */
+.mark{
+    margin-top: 20px;
+    color: #ff000f;
+    background-color: #fff;
+}
+/*start contact details */
+.list{
+    margin-left: 20px;
+    font-size: large;
+    color: #000;
+}
+.details{
+    padding-left: 100px;
+}
+.required{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 110px;
+    color: #000;
+    padding-bottom: 20px;
+}
+.required li{
+    list-style-type:disc;
+    padding-top: 30px;
+    font-size: larger;
+}
+.more li{
+    color: #000;
+    list-style-type: square;
+    margin-left: 25px;
+    font-size: medium;
+}
+.proof{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.para{
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.margin_para{
+    color: #000;
+    font-weight: 400;
+}
+.img-pad{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 0px;
+}
+/* end- contact details */
+/* button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+/* carousel text */
+.carousel-caption{
+
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 120px;
+}
+.carousel-caption h5{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: fantasy;
+    text-transform: lowercase;
+}
+.carousel-caption li::marker{
+    content:" ✓";
+}
+
+.nav-item:hover {
+  background-color: #f0f0f0; /* Change to the desired highlight color */
+  color: #FFF   ; /* Change to the desired text color */
+ 
+}
+
+.nav-item:active {
+  background-color: #4b92ff; /* Change to the desired highlight color */
+   /* Change to the desired text color */
+}
+
+.nav-item .active {
+    background: linear-gradient(to right, #4b92ff, #b7e3ff); /* You can adjust the colors and direction */
+    border-radius: 5px;
+    color: #fff;
+}
+/* .nav-item .active:active:hover{
+    color: #fff;
+} */
+/* .active{
+    color: #fff;
+} */
+@media (max-width:768px) {
+    .carousel-item img{
+        height: auto;
+    }
+    .carousel-control-prev{
+       display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .what_taital{
+        padding-top: 30px;
+        font-size: 17px;
+    }
+    .what_text {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    
+}
